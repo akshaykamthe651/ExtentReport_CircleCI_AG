@@ -38,7 +38,7 @@ jobs:
           path: ~/testng/results/
 
       - store_artifacts:
-           path: test-output
+           path: ~/testng/results/
          
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
